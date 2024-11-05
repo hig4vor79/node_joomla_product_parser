@@ -18,7 +18,7 @@ async function main() {
   try {
     console.log("Подключение к базе данных успешно установлено");
 
-    // Запрос на получение категорий из таблицы
+    // Запрос на получение категорий из таблицыs
     const [categories] = await connection.query(
       "SELECT category_id, `alias_nb-NO` FROM pariz.bagtop_jshopping_categories"
     );
